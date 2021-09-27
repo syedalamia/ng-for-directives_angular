@@ -1,0 +1,9 @@
+<h1>Our all users List</h1>
+<ul>
+    <li *ngFor="let user of users">
+        <h5>her name is {{user.firstName}} {{user.secondName}}</h5>
+        <p>her house number is located in road {{user.address.road}}</p>
+        <p>her house number is located in {{user.address.city}} city</p>
+       
+    </li>
+</ul>
